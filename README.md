@@ -1,3 +1,5 @@
+<img src="C:\X\Media\Photos\Designs\Icons\SLING.png" align="middle"/>
+
 # Sling
 
 ## Description
