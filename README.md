@@ -2,10 +2,10 @@
 
 ## Description
 
-Kill shapes.
-Use Rage Mode.
-Roam the arena as a sphere with 3 different weapon styles controlled by switches at the edge.
-Simple single finger drag based control, with addictive gameplay mechanics.
+* Kill shapes.
+* Use Rage Mode.
+* Roam the arena as a sphere with 3 different weapon styles controlled by switches at the edge.
+* Simple single finger drag based control, with addictive gameplay mechanics.
 
 ## Links
 
@@ -13,6 +13,8 @@ Simple single finger drag based control, with addictive gameplay mechanics.
 
 ## Screenshots
 
-![First Screen](https://lh3.googleusercontent.com/8K9V35-QHznqrI8gUgnFbtwEy51INZ6b20v5V0xzbhVwVMwYmEqHY9ZbAyX5PE3Xkw=w1536-h723-rw)
+<img align="left" src="https://lh3.googleusercontent.com/8K9V35-QHznqrI8gUgnFbtwEy51INZ6b20v5V0xzbhVwVMwYmEqHY9ZbAyX5PE3Xkw=w1536-h723-rw">
 
-![Gameplay](https://lh3.googleusercontent.com/LCcXy76mhp8elRFxapSzCLrVecghuvtE0TWa4M4f5gUjqZm3WrupoJWJ6MMYzmDVfg=w1536-h723-rw)
+<img align="middle" src="https://lh3.googleusercontent.com/LCcXy76mhp8elRFxapSzCLrVecghuvtE0TWa4M4f5gUjqZm3WrupoJWJ6MMYzmDVfg=w1536-h723-rw">
+
+<img align="right" src="https://lh3.googleusercontent.com/GQGGZNfrM6qOCuJoktS_LfXP7c2tgCcDIUKBPdam1BxI0gNOqu43zVahkN9lxK8zgNc=w1536-h723-rw">
