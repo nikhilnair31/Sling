@@ -1,4 +1,4 @@
-<img src="C:\X\Media\Photos\Designs\Icons\SLING.png" align="middle"/>
+![Icon](https://github.com/nikhilnair31/Sling/blob/master/Project%20SLING/Assets/Images/Icon/Sling.png)
 
 # Sling
 
