@@ -99,14 +99,15 @@ public class PlayerControllerv2 : MonoBehaviour {
 
 	void HealthDirect(Collider other){
 		Health PH = GetComponent<Health> ();
-		if(PH.currentHealth + healthPickupAmount > PH.rageLimit){
+		if( (PH.currentHealth + healthPickupAmount > PH.rageLimit) && (PH.currentHealth + healthPickupAmount < 100) ){
 			PH.currentHealth += healthPickupAmount;
 			PH.RageReset();
 		}
 		else{
-			PH.currentHealth += healthPickupAmount;
+			//PH.currentHealth += healthPickupAmount;
+			PH.currentHealth = 100;
 		}
-		if(PH.currentHealth < 100){
+		if(PH.currentHealth <= 100){
 			Destroy(other.gameObject);
 		}
 		PH.healthBar.value = PH.currentHealth;

@@ -12,7 +12,7 @@ public class MenuManager : MonoBehaviour {
 	private string storeID = "3009316";
 	private Scene m_Scene;
 	public PostProcessVolume PPV;
-	public GameObject controlUI, startCanvasUI, pauseCanvasUI;
+	public GameObject controlUI, startCanvasUI, pauseCanvasUI,tutorialUI;
 	public Animator startCanvasAnim, pauseCanvasAnim;
 
 	void Awake () {
@@ -34,6 +34,19 @@ public class MenuManager : MonoBehaviour {
 		Time.timeScale = 1f;
 		SceneManager.LoadScene("Funky_Skybox_Scene");
 		m_Scene = SceneManager.GetActiveScene();
+	}
+
+	public void Tutorial () {
+		StartCoroutine (WaittoTutorial ());
+	}
+
+	public void backFromTutorial () {
+		Time.timeScale = 1f;
+		PPV.weight = 1;
+		tutorialUI.SetActive (false);
+		controlUI.SetActive (true);
+		startCanvasUI.SetActive (false);
+		pauseCanvasUI.SetActive (false);
 	}
 
 	public void DirectPause () {
@@ -121,6 +134,15 @@ public class MenuManager : MonoBehaviour {
 		yield return new WaitForSeconds (1.25f);
 		controlUI.SetActive (true);
 		startCanvasUI.SetActive (false);
+	}
+
+	IEnumerator WaittoTutorial () {
+		Time.timeScale = 0.5f;
+		PPV.weight = 1;
+		startCanvasAnim.Play ("Starting");
+		yield return new WaitForSeconds (.5f);
+		controlUI.SetActive (true);
+		tutorialUI.SetActive (true);
 	}
 
 	IEnumerator WaittoDirectPause () {
