@@ -17,6 +17,6 @@
 
 <img align="middle" src="https://lh3.googleusercontent.com/LCcXy76mhp8elRFxapSzCLrVecghuvtE0TWa4M4f5gUjqZm3WrupoJWJ6MMYzmDVfg=w1536-h723-rw">
 
-<img align="left" src="https://lh3.googleusercontent.com/LCcXy76mhp8elRFxapSzCLrVecghuvtE0TWa4M4f5gUjqZm3WrupoJWJ6MMYzmDVfg=w1536-h723-rw">
+<img align="left" src="https://lh3.googleusercontent.com/GQGGZNfrM6qOCuJoktS_LfXP7c2tgCcDIUKBPdam1BxI0gNOqu43zVahkN9lxK8zgNc=w1536-h723-rw">
 
 <img align="middle" src="https://lh3.googleusercontent.com/sYo6kn_ScX--0YgAd2GE6riOpUN7_QjGJ6vUVcCkKVfr2bV3zH9msZGo9Rpu-T_lGw=w1536-h723-rw">
