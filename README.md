@@ -1,4 +1,4 @@
-![Icon](https://github.com/nikhilnair31/Sling/blob/master/Project%20SLING/Assets/Images/Icon/Sling.png =128x)
+<img align="middle" src="https://github.com/nikhilnair31/Sling/blob/master/Project%20SLING/Assets/Images/Icon/Sling.png" width="128" >
 
 # Sling
 
