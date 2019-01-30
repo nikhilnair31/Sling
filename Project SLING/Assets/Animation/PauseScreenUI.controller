@@ -56,7 +56,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HelpOff
-  m_Speed: 3
+  m_Speed: 6.5
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -69,58 +69,6 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 736ad51f2b1dcda46b24f5142a7ef969, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &1102172463022877622
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SettingsOn
-  m_Speed: 7
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5e205e6a152bf3c4ab4ccf559c5686c1, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &1102308384115788384
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SettingsOff
-  m_Speed: 3
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c171b8f53d1062d43aa2e6d9c379430f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -246,29 +194,21 @@ AnimatorStateMachine:
     m_State: {fileID: 1102501970386638802}
     m_Position: {x: 312, y: 168, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102172463022877622}
+    m_State: {fileID: 1102130165346864062}
     m_Position: {x: 312, y: 228, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102308384115788384}
+    m_State: {fileID: 1102139092297042792}
     m_Position: {x: 312, y: 288, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102130165346864062}
+    m_State: {fileID: 1102573253141438980}
     m_Position: {x: 312, y: 348, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102139092297042792}
-    m_Position: {x: 312, y: 420, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 1102573253141438980}
-    m_Position: {x: 312, y: 492, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 1102354108517344924}
-    m_Position: {x: 347, y: 557, z: 0}
+    m_Position: {x: 312, y: 408, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:
   - {fileID: 1109606313456398256}
-  - {fileID: 1109371247875455664}
-  - {fileID: 1109497590800118014}
   - {fileID: 1109770855707285714}
   - {fileID: 1109778064902928454}
   - {fileID: 1109661366612760044}
@@ -279,34 +219,6 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 1102390290755823088}
---- !u!1109 &1109371247875455664
-AnimatorTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions: []
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102172463022877622}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 1
---- !u!1109 &1109497590800118014
-AnimatorTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions: []
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102308384115788384}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 1
 --- !u!1109 &1109606313456398256
 AnimatorTransition:
   m_ObjectHideFlags: 1
